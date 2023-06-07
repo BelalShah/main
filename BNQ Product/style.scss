@@ -40,10 +40,6 @@
             }
         }
     }
-}
-.section3 {
-    margin-top: 100px;
-
     .upper {
         display: flex;
         align-items: center;
@@ -69,11 +65,16 @@
             }
         }
     }
+}
+.section3 {
+    margin-top: 100px;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    background: #f3f3f3;
+
     .wrap {
-        margin-top: 100px;
         justify-content: space-between;
         display: flex;
-
         .left {
             width: 47%;
             img {
@@ -104,16 +105,98 @@
             }
             a {
                 background-color: #163e61;
-                padding: 13px 45px 15px;
+                padding: 15px 35px 15px;
                 display: flex;
-                align-items: flex-end;
-                color: #000;
+                color: #fff;
                 text-decoration: none;
+                border-radius: 25px;
+                width: 35%;
                 i {
-                    margin-left: 10px;
-                    color: #000;
+                    margin-left: 13px;
+                    color: #fff;
                 }
             }
         }
+    }
+}
+
+.section4 {
+    margin-top: 100px;
+    .background {
+        background-color: #161761;
+        height: 300px;
+    }
+
+    .title {
+        line-height: 30px;
+        padding: 30px;
+        text-align: center;
+        font-size: 32px;
+        font-family: "Roboto", sans-serif;
+    }
+    .wrap {
+        display: flex;
+
+        .card {
+            max-width: 25%;
+            padding: 10px;
+            margin: 10px;
+            transition: all 0.8s;
+            &:hover {
+                background-color: rgb(182, 176, 185);
+                z-index: 1;
+            }
+
+            p {
+                font-size: 15.6px;
+                font-family: "Roboto", sans-serif;
+                margin-top: 15px;
+                text-align: center;
+            }
+        }
+    }
+}
+
+.vision {
+    padding-top: 80px;
+    padding-bottom: 80px;
+    background: #f3f3f3;
+    .wrap {
+        display: flex;
+        justify-content: space-between;
+        .card1 {
+            display: flex;
+            width: 30%;
+            .left {
+                img {
+                    width: 50px;
+                    height: auto;
+                }
+            }
+            .right {
+                margin-left: 15px;
+                .title {
+                    color: #163e61;
+                    font-size: 18px;
+                    font-weight: 600;
+                    margin-bottom: 10px;
+                }
+                p {
+                    font-size: 13px;
+                    line-height: 25px;
+                }
+            }
+        }
+    }
+}
+
+.testimonials {
+    background: #c83431;
+    height: 280px;
+    padding-top: 50px;
+    .title {
+        text-align: center;
+        color: #fff;
+        font-size: 32px;
     }
 }
