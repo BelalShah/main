@@ -1,1 +1,157 @@
-/* No CSS *//*# sourceMappingURL=style.css.map */
+.container h1 {
+  text-align: center;
+}
+
+.container .row {
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+}
+
+.container .row .card {
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  border: 0;
+  -webkit-box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.2);
+          box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.2);
+  max-width: 30%;
+  padding: 10px;
+  margin: 10px;
+}
+
+.container .row .card:hover {
+  background-color: #cccaca;
+  z-index: 1;
+}
+
+.container .row .card p {
+  font-family: "Roboto", sans-serif;
+  line-height: 18px;
+  font-weight: 600;
+  font-size: 20px;
+  margin: 0;
+  text-align: center;
+  padding-top: 15px;
+  padding-bottom: 5px;
+}
+
+.container .row .card img {
+  -o-object-fit: fill;
+     object-fit: fill;
+  width: 100%;
+  border-radius: 5px;
+}
+
+.container .row .card img:hover {
+  background-color: black;
+  z-index: 1;
+}
+
+.section3 {
+  margin-top: 100px;
+}
+
+.section3 .upper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.section3 .upper .sectiontitle {
+  margin-bottom: 30px;
+  font-family: "Roboto", sans-serif;
+  font-size: 30px;
+}
+
+.section3 .upper .sectiontitle span {
+  font-weight: 700;
+}
+
+.section3 .upper .button {
+  background: #163e61;
+  color: #fff;
+  padding: 13px 45px 15px;
+  border-radius: 50px;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+}
+
+.section3 .upper .button:hover {
+  background-color: #fd7e14;
+}
+
+.section3 .wrap {
+  margin-top: 100px;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.section3 .wrap .left {
+  width: 47%;
+}
+
+.section3 .wrap .left img {
+  width: 100%;
+  border-radius: 10px;
+}
+
+.section3 .wrap .right {
+  width: 47%;
+}
+
+.section3 .wrap .right .title {
+  margin-bottom: 30px;
+  font-family: "Roboto", sans-serif;
+  font-size: 40px;
+  font-weight: 300;
+}
+
+.section3 .wrap .right .title span {
+  font-weight: 700;
+}
+
+.section3 .wrap .right .paragraph {
+  margin-bottom: 30px;
+  line-height: 30px;
+  font-size: 16px;
+  font-family: "Roboto", sans-serif;
+}
+
+.section3 .wrap .right a {
+  background-color: #163e61;
+  padding: 13px 45px 15px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+  color: #000;
+  text-decoration: none;
+}
+
+.section3 .wrap .right a i {
+  margin-left: 10px;
+  color: #000;
+}
+/*# sourceMappingURL=style.css.map */
